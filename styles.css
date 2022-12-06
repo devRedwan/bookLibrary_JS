@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -35,8 +35,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-
 
 ul {
   display: flex;
@@ -175,15 +173,14 @@ button:active {
   color: white;
 }
 
-
-/* 
+/*
 
 LANDING
 
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1)
+  background-color: rgba(115, 66, 214, 0.1);
 }
 
 header {
@@ -209,7 +206,7 @@ header {
 .header__img--wrapper {
   padding: 20px;
 
-  /* Added this after the tutorial to 
+  /* Added this after the tutorial to
   show it over the wave on larger screens */
   z-index: 100;
 }
@@ -233,9 +230,9 @@ header {
 .no-cursor {
   cursor: not-allowed;
 }
-/* 
+/*
 
-HIGHLIGHTS 
+HIGHLIGHTS
 
 */
 
@@ -246,7 +243,7 @@ HIGHLIGHTS
 
 #highlights:after,
 #highlights:before {
-  background: url('assets/wave.svg');
+  background: url("assets/wave.svg");
   content: "";
   position: absolute;
   width: 101vw;
@@ -304,9 +301,9 @@ HIGHLIGHTS
   text-align: center;
 }
 
-/* 
+/*
 
-FEATURES 
+FEATURES
 
 */
 
@@ -366,7 +363,7 @@ FEATURES
   color: #bfbfbf;
 }
 
-/* 
+/*
 
 EXPLORE
 
@@ -376,7 +373,7 @@ EXPLORE
   background-color: rgba(115, 66, 214, 0.1);
 }
 
-/* 
+/*
 
 FOOTER
 
@@ -408,7 +405,7 @@ footer {
   padding: 0 8px;
 }
 
-/* 
+/*
 **
 
 BOOKS PAGE
@@ -449,6 +446,14 @@ select {
   padding: 0 16px;
   width: 100%;
   max-width: 200px;
+}
+
+.books__loading--spinner {
+  display: none !important;
+}
+
+.books__loading .books__loading--spinner {
+  display: block !important;
 }
 
 .books__loading {
@@ -496,7 +501,6 @@ select {
     width: 50%;
   }
 }
-
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
